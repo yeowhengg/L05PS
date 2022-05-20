@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModuleDetailActivity"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/modCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modCode">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/modName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modName">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/acadYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acadYear">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sem">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/modCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modCredit">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/venue">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back">
+
+    </Button>
+
+
+
+</LinearLayout>
